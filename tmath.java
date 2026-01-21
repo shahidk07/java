@@ -23,7 +23,7 @@ public class tmath {
         // int a=3;
         // int b=4;
         // double c=Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
-        // System.out.println("Hypotenuse is: "+c);
+        // System.out.println("H,ypotenuse is: "+c);
 
 
         // volume of a sphere=4/3*pi*r^3
