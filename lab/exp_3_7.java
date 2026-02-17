@@ -6,21 +6,47 @@ public class exp_3_7 {
 
 
     public static void main(String[] args) {
-        String sentence="Arthur Morgan is the main character of Read Dead Redemption 2 ";
+        Scanner scn=new Scanner(System.in);
 
-        for(String word:sentence){
-            int countVowel=0;
-            for(int i=0;i<word.length();i++){
-                char ch=word.charAt(i);
-                ch=Character.toLowerCase(ch);
-              
-                if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
-                    countVowel++;
-                }
+        System.out.println("Enter a String");
+        String sentence=scn.nextLine();
+
+        System.out.println("Enter the sub-string you want to check");
+        String subString=scn.next();
+        
+        int m=sentence.length();
+        int n=subString.length();
+
+        int subStringcount=0;
+
+
+                for(int i=0;i<=m-n;i++){
+                    // i<=m because only loop has checked m-n elements there is no chance of getting a substring
+
+                    int j=0;//subString iterator
+
+                while(j<n && sentence.charAt(i+j)==subString.charAt(j)){
+
+                    j++;   
             }
-            System.out.println("The number of vowels in the word '"+word+"' is/are:"+countVowel);
 
+            if(j==n){
+                subStringcount++;
+                //increase the number of appearance of substring
+            }
+
+          
         }
+        //Final peace after all the checking
+        if(subStringcount>=1){
+            System.out.println("\nThe number of appearance for the substring:"+subStringcount);
+        }
+        else{
+            System.out.println("Substring not found");
+        }
+     
+    
     }
 }
+
 
