@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class exp_3_8 {
+public class exp_3_8_a {
     public static void main(String[] args) {
         
         int matA[][]=
