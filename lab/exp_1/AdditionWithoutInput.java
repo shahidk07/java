@@ -1,18 +1,4 @@
-package lab.exp_1;
-// package lab;
 
-// public class jod{
-//     public static void main(String[] args) {
-//         int num1=330;
-//         int num2=49;
-//         float num3=30.8f;
-//         float sum=num1+num2+num3;
-//         System.out.println("first number:"+num1);
-//         System.out.println("Second number"+num2);
-//         System.out.println("third number:"+num3);
-//         System.out.println("Sum::"+sum);
-//     }
-// }
 public class AdditionWithoutInput {
     public static void main(String[] args) {
         
