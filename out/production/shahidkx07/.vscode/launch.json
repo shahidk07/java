@@ -3,13 +3,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Mywindow",
-      "request": "launch",
-      "mainClass": "Mywindow",
-      "projectName": "java_998bff25"
-    },
-    {
-      "type": "java",
       "name": "Animal",
       "request": "launch",
       "mainClass": "Animal",

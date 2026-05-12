@@ -1,13 +1,19 @@
-public class practise {
+import java.io.*;
 
-    int i;
+class Demo {
 
-    practise() {
-        this.i = 1;
-        System.out.println("constructor 1 used");
+    static void check() throws IOException {
+        throw new IOException("File Error");
     }
+    public static void main(String args[]) {
 
-    public static void main(String[] args) {
-        practise obj = new practise();
+        try {
+       
+            check();
+        }
+
+        catch(IOException e) {
+            System.out.println(e);
+        }
     }
 }

@@ -1,0 +1,2 @@
+Hello! This file is created by Java.
+File handling is easy.
